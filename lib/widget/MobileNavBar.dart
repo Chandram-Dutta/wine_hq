@@ -10,7 +10,7 @@ class MobileNavBar extends StatelessWidget {
     return isDesktop(context)
         ? Row()
         : Wrap(
-            children: appBarButtonsWidgets,
+            children: appBarMobileButtonsWidgets,
           );
   }
 }

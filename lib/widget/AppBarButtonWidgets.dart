@@ -1,35 +1,93 @@
 import 'package:flutter/material.dart';
+import 'package:wine_hq/services/UrlLauncher.dart';
 import 'package:wine_hq/widget/AppBarButton.dart';
 
-var appBarButtonsWidgets = <Widget>[
-  AppBarButton(
+var appBarDesktopButtonsWidgets = <Widget>[
+  AppBarDesktopButton(
     title: "About",
-    function: () {},
+    function: () {
+      launchUrl("https://www.winehq.org/about");
+    },
     icon: Icons.info_outline_rounded,
   ),
-  AppBarButton(
+  AppBarDesktopButton(
     title: "Download",
-    function: () {},
+    function: () {
+      launchUrl("https://wiki.winehq.org/Download");
+    },
     icon: Icons.download,
   ),
-  AppBarButton(
+  AppBarDesktopButton(
     title: "Application Database",
-    function: () {},
+    function: () {
+      launchUrl("https://appdb.winehq.org/");
+    },
     icon: Icons.dns_outlined,
   ),
-  AppBarButton(
+  AppBarDesktopButton(
     title: "Support",
-    function: () {},
+    function: () {
+      launchUrl("https://www.winehq.org/help");
+    },
     icon: Icons.help,
   ),
-  AppBarButton(
+  AppBarDesktopButton(
     title: "Get Involved",
-    function: () {},
+    function: () {
+      launchUrl("https://www.winehq.org/getinvolved");
+    },
     icon: Icons.groups_outlined,
   ),
-  AppBarButton(
+  AppBarDesktopButton(
     title: "Donate",
-    function: () {},
+    function: () {
+      launchUrl("https://www.winehq.org/donate");
+    },
+    icon: Icons.attach_money_outlined,
+  ),
+];
+
+var appBarMobileButtonsWidgets = <Widget>[
+  AppBarMobileButton(
+    title: "About",
+    function: () {
+      launchUrl("https://www.winehq.org/about");
+    },
+    icon: Icons.info_outline_rounded,
+  ),
+  AppBarMobileButton(
+    title: "Download",
+    function: () {
+      launchUrl("https://wiki.winehq.org/Download");
+    },
+    icon: Icons.download,
+  ),
+  AppBarMobileButton(
+    title: "Application Database",
+    function: () {
+      launchUrl("https://appdb.winehq.org/");
+    },
+    icon: Icons.dns_outlined,
+  ),
+  AppBarMobileButton(
+    title: "Support",
+    function: () {
+      launchUrl("https://www.winehq.org/help");
+    },
+    icon: Icons.help,
+  ),
+  AppBarMobileButton(
+    title: "Get Involved",
+    function: () {
+      launchUrl("https://www.winehq.org/getinvolved");
+    },
+    icon: Icons.groups_outlined,
+  ),
+  AppBarMobileButton(
+    title: "Donate",
+    function: () {
+      launchUrl("https://www.winehq.org/donate");
+    },
     icon: Icons.attach_money_outlined,
   ),
 ];
