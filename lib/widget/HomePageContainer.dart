@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wine_hq/constants.dart';
 import 'package:wine_hq/responsive/responsive.dart';
+import 'package:wine_hq/widget/LatestReleasesColumn.dart';
 import 'package:wine_hq/widget/MobileNavBar.dart';
 
 class HomePageContainer extends StatelessWidget {
@@ -43,6 +44,12 @@ class HomePageContainer extends StatelessWidget {
                     textAlign: TextAlign.center,
                   ),
                 ),
+                SizedBox(height: 40),
+                Divider(color: Colors.white),
+                SizedBox(height: 40),
+                LatestReleasesColumn(),
+                SizedBox(height: 40),
+                Divider(color: Colors.white),
                 SizedBox(height: 40),
               ],
             ),
