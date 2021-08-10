@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wine_hq/constants.dart';
 import 'package:wine_hq/responsive/responsive.dart';
+import 'package:wine_hq/widget/AppImageCarousel.dart';
 import 'package:wine_hq/widget/LatestReleasesColumn.dart';
 import 'package:wine_hq/widget/MobileNavBar.dart';
 
@@ -51,6 +52,7 @@ class HomePageContainer extends StatelessWidget {
                 SizedBox(height: 40),
                 Divider(color: Colors.white),
                 SizedBox(height: 40),
+                AppImageCarousel()
               ],
             ),
           ),
