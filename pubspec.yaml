@@ -45,6 +45,15 @@ flutter:
     - wine_examples_assets/eveonline.jpg
     - wine_examples_assets/falloutnv.jpg
     - wine_examples_assets/goggalaxy.jpg
+    - wine_examples_assets/matlab.jpg
+    - wine_examples_assets/metatrader5.jpg
+    - wine_examples_assets/outlook2010.jpg
+    - wine_examples_assets/photoshopcc2015.jpg
+    - wine_examples_assets/reason.jpg
+    - wine_examples_assets/sims3.jpg
+    - wine_examples_assets/skyrim_specialed.jpg
+    - wine_examples_assets/steam.jpg
+    - wine_examples_assets/wizard101.jpg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
