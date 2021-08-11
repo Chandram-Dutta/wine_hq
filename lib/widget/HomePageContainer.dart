@@ -52,7 +52,13 @@ class HomePageContainer extends StatelessWidget {
                 SizedBox(height: 40),
                 Divider(color: Colors.white),
                 SizedBox(height: 40),
-                AppImageCarousel()
+                Text(
+                  "Examples",
+                  style: TextStyle(fontSize: 32),
+                ),
+                SizedBox(height: 40),
+                AppImageCarousel(),
+                SizedBox(height: 40),
               ],
             ),
           ),
